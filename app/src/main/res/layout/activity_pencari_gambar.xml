@@ -34,6 +34,7 @@
         android:id="@+id/gambar"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:paddingTop="10dp">
+        android:paddingTop="30dp"
+        android:layout_gravity="center">
     </ImageView>
 </LinearLayout>

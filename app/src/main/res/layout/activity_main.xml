@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="20sp"
-        android:text="Selamat Datang"
+        android:text="Async Task"
+        android:textAllCaps="true"
         android:textSize="30sp"
         android:textStyle="bold"></TextView>
 

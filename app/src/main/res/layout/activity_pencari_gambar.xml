@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.galuhwisnupambayun.galuh_1202150076_studycase4.PencariGambar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cari Gambar"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:id="@+id/linkgambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan URL Gambar">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnmencari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tampilkan Gambar"
+        android:textAllCaps="false"></Button>
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:paddingTop="10dp">
+    </ImageView>
+</LinearLayout>
